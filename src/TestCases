@@ -1,0 +1,85 @@
+Test case # 1
+Summary: Elements - Radio Button - select Yes.
+
+Preconditions:
+1. The website https://demoqa.com/ is opened.
+
+Steps to reproduce:
+1. Click on Elements.
+2. Click on Radio Button.
+3. Choose "Yes".
+
+Expected result:
+There is a text: "You have selected Yes".
+
+
+Test case # 2
+Summary: Book Store Application - Login with valid data.
+
+Preconditions:
+1. The website https://demoqa.com/ is opened.
+2. User is already registered.
+
+Steps to reproduce:
+1. Click on Book Store Application.
+2. Click on Login.
+3. Enter "anbond" to the UserName field.
+4. Enter "nasty2886Nasty2886@" to the Password field.
+5. Click on Login.
+
+Expected result:
+The button Log out is displayed on the page.
+
+
+Test case # 3
+Summary: Book Store Application - Profile - add book to the user's collection.
+
+Preconditions:
+1. The website https://demoqa.com/ is opened.
+2. User is already registered.
+3. Book with title "Speaking JavaScript" is not in user's collection.
+
+Steps to reproduce:
+1. Click on Book Store Application.
+2. Click on Login.
+3. Enter "anbond" to the UserName field.
+4. Enter "nasty2886Nasty2886@" to the Password field.
+5. Click on Login.
+6. Click on Go To Book Store.
+7. Click on title "Speaking JavaScript" from the list.
+8. Click on Add To Your Collection.
+9. Confirm your action, click on Ok.
+10. Click on Profile.
+
+Expected result:
+The book "Speaking JavaScript" is in the user's collection.
+
+
+Test case # 4
+Summary: Interactions - Selectable - select list.
+
+Preconditions:
+1. The website https://demoqa.com/ is opened.
+
+Steps to reproduce:
+1. Click on Interactions.
+2. Click on Selectable.
+3. Click on Morbi leo risus.
+
+Expected result:
+List Morbi leo risus is selected.
+
+
+Test case # 5
+Summary: Elements - Broken Links - Valid Link.
+
+Preconditions:
+1. The website https://demoqa.com/ is opened.
+
+Steps to reproduce:
+1. Click on Elements.
+2. Click on Broken Links - Images button.
+3. Click on Click Here for Valid Link.
+
+Expected result:
+You are redirected to https://demoqa.com/.
